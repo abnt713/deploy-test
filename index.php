@@ -1,12 +1,5 @@
 <?php
 
-class IndexPrinter{
-
-    public function print_index(){
-        echo 'Deploy Success';
-    }
-
-}
-
+require_once __DIR__ . '/printer.php';
 $entity = new IndexPrinter();
 $entiti->print_index();
